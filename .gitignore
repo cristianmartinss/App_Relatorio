@@ -1,0 +1,6 @@
+assets/
+__Pycache/
+*.md
+*.txt
+/env
+/venv
