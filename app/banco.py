@@ -2,11 +2,11 @@ import mysql.connector
 
 def conectar_banco():
     config = {
-        'host': 'srv-intra',
-        'user': 'cristian',
-        'password': 'Selit@85',
-        'database': 'plms',
-        'port': '3306',
+        'host': '',
+        'user': '',
+        'password': '',
+        'database': '',
+        'port': '',
     }
     conexao = mysql.connector.connect(**config)
     return conexao
